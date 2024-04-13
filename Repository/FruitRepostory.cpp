@@ -12,7 +12,7 @@ void FruitRepository::add_update(const Fruit &fruit1) {
         if (f.get_name() == fruit1.get_name() && f.get_origin() == fruit1.get_origin()) {
 
             f.set_quantity(fruit1.get_quantity()); //schimbam doar cantitatea
-            f.set_price(fruit1.get_price());
+            //f.set_price(fruit1.get_price());
             return;
         }
     }
